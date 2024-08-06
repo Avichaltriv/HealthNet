@@ -1,5 +1,5 @@
 "use client";
-import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
+import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/component/ui/card"
 import { Button } from "@/components/component/ui/button"
 import { useRouter } from "next/navigation";
 

@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/component/ui/button"
-import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
+import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/component/ui/card"
 import { Label } from "@/components/component/ui/label"
 import { Input } from "@/components/component/ui/input"
 // import AuthContract from "@/utils/contracts/AuthContract";
@@ -48,9 +48,8 @@ export default function Login() {
                 className="animate-bounce hover:scale-105 transition-transform duration-300 ease-in-out"
                 size="lg"
                 variant="primary"
-              >
-                Explore Services
-              </Button>
+              />
+              
             </div>
           </div>
         </div>
@@ -95,7 +94,7 @@ export default function Login() {
               <Button
                 className="w-full bg-gray-700 animate-[bounce_1s_ease-in-out] hover:animate-[bounce_1s_ease-in-out] hover:scale-105 transition-transform duration-300 ease-in-out"
                 variant="primary"
-                onClick={handleSubmit}
+                // onClick={handleSubmit}
               >
                 Login
               </Button>
