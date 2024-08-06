@@ -17,7 +17,7 @@ export default function TypewriterEffectSmoothDemo() {
       text: "Solution:",
     },
     {
-      text: "Mediconnect.",
+      text: "HealthNet.",
       className: "text-blue-500 dark:text-green-500",
     },
   ];
